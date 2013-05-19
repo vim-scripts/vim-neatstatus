@@ -1,0 +1,27 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4587
+
+A neat status line with color changing mode indicator. It is nowhere near as powerful as Powerline but if you just need something simple, fast and easy this will work great.
+
+Screenshot: http://i.imgur.com/7ySiHql.png
+
+Information in the status line provided from left to right:
+
+    - Vim Mode (green box)
+    - Server name / session name (black box)
+    - File path
+    - File type (eg. python, ruby, etc..)
+    - File format (eg. unix, dos, etc..)
+    - File encoding (eg. utf8, latin1, etc..)
+    - Buffer number
+    - Current line, total number of lines (purple box)
+    - Percentage of file read
+    - Relative column number (from first character)
+    - Absolute column number (from start of line)
+    - Modified / Unmodified (pink box)
+
+Works well with Obvious-Mode: vimscript#2212
+
+--
+
+Github: https://github.com/maciakl/vim-neatstatus
+
